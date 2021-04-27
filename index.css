@@ -1,0 +1,53 @@
+.navbar  {
+    
+    text-align: right;
+    font-size: xx-large;
+    background-color:darkslategray;
+    color: white;
+}
+a{
+    color: cornsilk;
+
+}
+
+a:hover{
+    
+    background-color:black;
+}
+a:active{
+    color:lightgrey;
+}
+
+
+.container{
+    position: relative;
+    text-align:center;
+    font-size: xx-large;
+    color:blanchedalmond;
+    background-size:cover;
+
+}
+.centered{
+    position:absolute;
+    text-align:center;
+    top:50%;
+    left:40%;
+}
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+p{
+    font-size: xx-large;
+    font-weight: 200;
+}
+button{
+    font-size: 20px;
+    background-color:darkslategray;
+    color: black;
+}
+ .project :hover{
+    background-color:cornflowerblue;
+    border-radius: 40%;
+    color: black;
+}
