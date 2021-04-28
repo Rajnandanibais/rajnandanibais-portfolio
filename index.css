@@ -1,11 +1,11 @@
-.navbar  {
-    
+
+#nav {
+    background-color:darkslategray;
+    font-size: xx-large;
     text-align: right;
     font-size: xx-large;
-    background-color:darkslategray;
-    color: white;
 }
-a{
+  a{
     color: cornsilk;
 
 }
@@ -50,4 +50,12 @@ button{
     background-color:cornflowerblue;
     border-radius: 40%;
     color: black;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+   height:40px;
+    width: 100%;
+    background-color:darkslategray;
+    font-size: xx-large;
 }
