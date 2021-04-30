@@ -9,29 +9,36 @@ box-sizing: border-box;
 body{
     font-family: 'Poppins', sans-serif;
 }
-#nav {
+.navigation {
     background-color:darkslategray;
+   /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;*/
     font-size: xx-large;
     text-align: right;
-    font-size: xx-large;
+    transition: all 0.2s ease;
+
 }
+
   a{
     color: cornsilk;
+    text-decoration: none;
+    padding: 0.2rem 0.3rem;
+
 
 }
 
 a:hover{
+ color:lightblue;
+ transition:scale(1.1);
     
-    background-color:black;
 }
 a:active{
     color:lightgrey;
 }
 
 
-.container{
+header.container{
     position: relative;
-    text-align:center;
     font-size: xx-large;
     color:blanchedalmond;
     background-size:cover;
@@ -52,20 +59,28 @@ p{
     font-weight: 200;
 }
 button{
+    border-radius: 2rem;
     font-size: 20px;
     background-color:darkslategray;
     color: black;
+    border: 0.1rem solid grey;
+    padding: 0.2rem 0.2rem;
+    margin-left: 1.2rem;
 }
+/*.footer a {
+    padding: 1rem 2rem;
+}*/
  .project :hover{
     background-color:cornflowerblue;
     border-radius: 40%;
     color: black;
 }
-#footer{
+footer{
     position: fixed;
     bottom: 0;
    height:40px;
     width: 100%;
     background-color:darkslategray;
     font-size: xx-large;
+    
 }
